@@ -44,6 +44,7 @@ RUN apt-get update -y \
     curl \
     sudo \
     lsb-release \
+    unzip \
     xz-utils \
     && rm -rf /var/lib/apt/lists/*
 
